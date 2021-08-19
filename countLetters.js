@@ -21,8 +21,7 @@ const countLetters = function(string) {
 
 };
 
-console.log(countLetters('Light House Labs'));
-
+assertEqual((countLetters('LHL')),{L: 2, H: 1});
 
 
 
