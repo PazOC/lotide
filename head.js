@@ -1,7 +1,8 @@
-const head = function(headArr) {
-    return array[0];
+const assertEqual = require('./assertEqual.js');
+
+const head = function(myArray) {
+    return myArray[0];
 };
 
+module.exports = head;
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(['Hello', 'Lighthouse', 'Labs']), 'Hello');
